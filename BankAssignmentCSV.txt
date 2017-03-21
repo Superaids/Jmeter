@@ -1,0 +1,17 @@
+bankingapi/getinterest?inputAmount,-1
+bankingapi/getinterest?inputAmount,-0.1
+bankingapi/getinterest?inputAmount, 0
+bankingapi/getinterest?inputAmount, 0.1
+bankingapi/getinterest?inputAmount, 99.99
+bankingapi/getinterest?inputAmount, 100
+bankingapi/getinterest?inputAmount, 100.01
+bankingapi/getinterest?inputAmount, 999.999
+bankingapi/getinterest?inputAmount,1000
+bankingapi/getinterest?inputAmount,1000.01
+bankingapi/getdiscount?newcust,true&lcard=true&coupon=true
+bankingapi/getdiscount?newcust,true&lcard=true&coupon=false
+bankingapi/getdiscount?newcust,true&lcard=false&coupon=false
+bankingapi/getdiscount?newcust,true&lcard=false&coupon=true
+bankingapi/getdiscount?newcust,false&lcard=true&coupon=true
+bankingapi/getdiscount?newcust,false&lcard=false&coupon=true
+bankingapi/getdiscount?newcust,false&lcard=true&coupon=false
